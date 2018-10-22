@@ -1,0 +1,36 @@
+﻿body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+  margin: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 4px dotted #006747;
+  background-color: #CFC493;
+}
+
+.header {
+  margin: 20px;
+  min-height: 30px;
+  background-color: aliceblue;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  border: 4px dotted #006747;
+}
+
+.footer {
+  margin: 80px;
+  padding-right: 200px;
+  text-align: center;
+  font-size: smaller;
+  text-align: right;
+  border: 3px dotted #006747;
+}
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+}
